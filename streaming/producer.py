@@ -21,7 +21,7 @@ with open('../config.yml', 'r') as f:
 
 def generate_order_item(product_prices):
     """
-    1. choose whether to buy item. eg >50% chance.
+    1. choose whether to buy item. eg >40% chance.
     2. if buy item, choose from within list of 20. equal chance
     3. choose quantity number between 1 to 3 
     4. add timestamp

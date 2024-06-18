@@ -1,0 +1,8 @@
+plugins/
+venv/
+config/
+logs/
+*/__pycache__/
+
+# User and key for upstash account information
+secrets.yml

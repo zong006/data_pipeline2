@@ -1,6 +1,7 @@
 # Sales Data Streaming and ETL Pipeline
 
-This project implements a real-time data pipeline for streaming sales data from a producer to Kafka, processing it with Spark Streaming, and persisting it to PostgreSQL. This project builds on the streaming pipeline set-up in `https://github.com/zong006/data_pipeline`, by adding a component for scheduled batch processing using Aiflow that aggregates and processes the sales data, finally persisting it to PostgreSQL.
+This project implements a real-time data pipeline for streaming sales data from a producer to Kafka, processing it with Spark Streaming, and persisting it to PostgreSQL. This project builds on the streaming pipeline set-up in [this GitHub repository](https://github.com/zong006/data_pipeline), by adding a component for scheduled batch processing using Airflow that aggregates and processes the sales data, finally persisting it to PostgreSQL.
+
 
 ## Components
 

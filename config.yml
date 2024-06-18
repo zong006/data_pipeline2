@@ -1,0 +1,12 @@
+cluster_variables:
+  topic: 'orders'
+
+postgres_variables:
+  table_name: 'order_items'
+  user: 'airflow'
+  password: 'airflow'
+
+
+duration: 3000
+
+last_extraction_time: "2024-06-10-18-00-00"
